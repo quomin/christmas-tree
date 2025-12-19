@@ -17,7 +17,11 @@ import * as random from 'maath/random';
 import { GestureRecognizer, FilesetResolver, DrawingUtils } from "@mediapipe/tasks-vision";
 
 // --- 动态生成照片列表 (top.jpg + 1.jpg 到 31.jpg) ---
+<<<<<<< HEAD
 const TOTAL_NUMBERED_PHOTOS = 2;
+=======
+const TOTAL_NUMBERED_PHOTOS = 31;
+>>>>>>> 78cc4e7181a2ef5f5a9e8d646fd980d87636f74e
 // 修改：将 top.jpg 加入到数组开头
 const bodyPhotoPaths = [
   '/photos/top.jpg',
